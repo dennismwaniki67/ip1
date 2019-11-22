@@ -6,7 +6,9 @@
 }
 
 body{
-    background: #efefef;
+    background: url(/images/3.jpeg) no-repeat center center ;
+    background-size: cover;
+    color: white;
     font-family: sans-serif;
 
 }
@@ -52,24 +54,11 @@ body{
     margin-bottom:15px;
 
 }
-.skills img{
-    height:5%;
-    margin: 5px;
+
 
 }
-.skills{
-    display:inline-block;
-    width: 28%;
-    padding: 30px 10px;
-    margin:2%;
-    text-align:center;
-    box-shadow:0 0 15px 1px rgba(33,73,214,0.18) ;
-    background: #fff;
-}
-.skills small{
-    padding-top:10px;
-    display:block;
-}
+
+
 .projects img{
     width:31%;
     padding: 4px;
@@ -129,19 +118,17 @@ body{
     .profile-img{
         width: 100%;
     }
-    .skills{
-        width: 95%;
-        margin-bottom: 10%;
-
-    }
-    .skills img{
-        height: 8%;
-        margin: 10px 0;
-    }
+    
     .projects img{
         width: 47%;
     }
     span{
         display: block;
     }
+}
+.main{
+    display: flex;
+}
+.me{
+    float: left;
 }
